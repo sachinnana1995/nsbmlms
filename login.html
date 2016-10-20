@@ -1,0 +1,347 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Learning Mangement System</title>
+<style type="text/css">
+
+body{
+	background-color:#FFF;
+	font-size:87.5%;
+	font-family:Verdana, Geneva, sans-serif;
+	line-height:1.5;
+	text-align:left;
+	
+	border-top-color:#FFF;
+	border-bottom-color:#FFF;
+	border-left-color:#FFF;
+	border-right-color:#FFF;
+	
+	}
+
+
+header img {
+	width:17%;
+	height:150px;
+	float:left;
+	border-right:#333 1px solid;
+	}
+	
+header {
+	position:relative;
+	height:152px;
+	width:100%;
+	border:1px #333333 solid;
+	
+	}
+	
+	
+#header_div1 {
+	margin-right:0px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	background-color: #0F0;
+	margin: 100px;
+	height: 50px;
+	width: 92%;
+}
+
+a {
+	text-decoration:none;
+	}
+
+nav {
+	position:relative;
+	border:#333 solid 1px;
+	margin-top:0.5%;
+	background: #666;
+	height:40px;
+	border-radius:5px;
+	width:99.5%;
+	margin-bottom:0.5%;
+	}
+	
+nav ul{
+	list-style:none;
+	margin: 0 20%;
+	
+	}
+nav ul li{
+	float:left;
+	display:inline;
+	text-align:left;
+	
+		}
+nav ul li a{
+	transition:all 0.3s;
+	margin-left:35px;
+	margin-right:35px;
+	font-weight:500;
+	font-family:Verdana, Geneva, sans-serif;
+	}
+
+nav ul li a:link , nav ul li a:visited {
+	color:#FFF;
+	display:inline-block;
+	padding:10px 20px;
+	}
+nav ul li a:hover{
+	background-color:#CF5C3F;	
+	}
+
+	input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: left;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+ .password{
+       
+       width: 50%;
+
+     
+
+ }
+
+  .bottem-Right{
+
+    margin: auto;
+   
+    border: 3px solid #73AD21;
+    padding: 10px;
+    float: right;
+    width: 50%;
+
+
+  } 
+
+  .bottomleftmargin{
+
+  	 margin: auto;
+   
+    border: 3px solid #73AD21;
+    padding: 20px;
+    width: 44.55%;
+    float: left;
+    height: 96.85%;
+  }
+
+
+  .bottomleft{
+	clear:both;
+	border-style:outset;
+	border-color:#CCC; 
+	width:50%;
+	height: 150%
+	margin-top:3%;
+	margin-left:0.2%;
+	background-color:#CCC;
+	}
+  
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.footer_image{
+  width: 98.1%;
+  background-color:#333;
+}
+
+ 
+
+</style>
+
+</head>
+
+    <body>
+  <form action="userlogin.php" method="post">  
+<header> <img src="nsbm.jpg">
+  <div id="header_div1">Marcee here</div>
+</header>
+<center>
+<nav>
+	<ul>
+   
+    	<li id="headerhome"><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Support</a></li>
+    </ul>
+</nav>
+</center>
+        
+
+<div id="pasword" class="password">
+ 
+ </div>
+
+  <div class="bottomleftmargin">
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="username" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="password" required>
+        
+      <button type="submit">Login</button>
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+</div>
+
+   <div class="bottem-Right">
+   <h2> IS THIS YOUR FIRST TIME HERE?</h2>
+   <p> Hi! For full access to courses you'll need to take a minute to create a new account for yourself on NSBM e- learning site. Each of the individual courses may also have a one-time "enrolment key", which you won't need until later. Here are the steps:</p>
+    
+    <h4>1. Fill out the New Account form with your details.</h4>
+    
+    </h4>2. Index Number should be same as it is your Student ID Card Number.</h4>
+   <h4> Eg:- BSC-UCD-MIS-12-1-142</h4>
+   
+
+   <h4>3. Name also should be same as it is your Student ID Card Name.</h4>
+   
+
+<h4>Eg:- Samarasekara H J K M</h4> 
+
+
+<h4>4. An email will be immediately sent to your email address.</h4>
+
+<h4>5. Read your email, and click on the web link it contains.</h4>
+
+<h4>5. Your account will be confirmed and you will be logged in.</h4>
+
+<h4>6. Now, select the course you want to participate in.</h4>
+
+<h4>7. If you are prompted for an "enrolment key" - use the one that your 
+teacher has given you. This will "enrol" you in the course.</h4>
+
+<h4>8. You can now access the full course. From now on you will only need to 
+enter your personal username and password (in the form on this page) to 
+log in and access any course you have enrolled in.</h4>
+
+
+</div>
+
+<script>
+     
+</script>    
+
+
+<footer id="footer1"><img src="banner-logos.png" id="footerimg" class="footer_image"/> </footer>
+<footer id="footer2">Copyright © 2016 National School of Business Management. All Rights Reserved.</footer>
+
+</form>
+
+
+
+
+  </body>
+
+  </html>
+
+
